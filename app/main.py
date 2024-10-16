@@ -1,6 +1,3 @@
-from idlelib.iomenu import errors
-
-
 def format_linter_error(error: dict) -> dict:
     return {
         "line": error["line_number"],
